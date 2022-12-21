@@ -1,0 +1,205 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");*/
+
+@font-face {
+  font-family: "poke";
+  src: url("./tipografías/pokemon/Pokemon\ Solid.ttf");
+}
+
+
+*{ margin: 0;padding: 0;}
+
+ 
+
+.cabecera{
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(21, 139, 223);
+    background-image: url(./imagenes/pokelisa.png), url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.search{
+    display:flex;
+    justify-content: center;
+    padding: 40px;   
+}
+
+
+.imagenPokemon{
+    max-width: 110px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    min-width: 105px;
+}
+
+.pokemon{
+    /*background-color: rgba(32, 32, 83, 0.735);*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.653);
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.name{
+    color: rgb(0, 0, 0);
+    font-family: "poke";
+    -webkit-text-stroke: 0.2px white;
+    font-size: 30px;
+}
+
+.peso{
+    color: white;
+}
+
+.altura{
+    color: white;
+}
+
+.tipe{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    font-size: 20px;
+}
+
+
+button{
+    background-color: rgb(28, 27, 27);
+    border-radius: 5px;
+    border: black;
+    width: 100px;
+    padding: 3px;
+    margin-bottom: 40px;
+    font-family: "pokemon";
+}
+
+
+.character-card{
+    max-width: 250px;
+    text-align: center;
+    min-height: 380px;
+    border-radius: 20px;
+    border: 1.5px solid rgba(245, 245, 220, 0.202);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 250px;
+    max-height: 380px;
+
+}
+
+/*PROPIEDADES POR GRUPOS*/
+
+.fire{
+    background-image: url(./imagenes/tipofire.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -129px -162px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.water{
+    background-image: url(./imagenes/elagua.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -85px -248px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.grass{
+    background-image: url(./imagenes/elgrass.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -59px -42px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.bug{
+    background-image: url(./imagenes/elbicho\ copia.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -59px -42px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.poison{
+    background-image: url(./imagenes/elpoison.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -164px -158px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.fairy{
+    background-image: url(./imagenes/elfairy.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -59px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.normal{
+    background-image: url(./imagenes/elfuego.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -98px -11px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.electric{
+    background-image: url(./imagenes/elelectric.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -73px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.ground{
+    background-image: url(./imagenes/elground\ copia.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -73px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.psychic{
+    background-image: url(./imagenes/elpsychic.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -73px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.rock{
+    background-image: url(./imagenes/elrock\ copia.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -73px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.fighting{
+    background-image: url(./imagenes/elrock\ copia.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -73px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.ghost{
+    background-image: url(https://i.imgur.com/Gj7m9Gw.png),url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -176px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.ice{
+    background-image: url(./imagenes/ice.png), url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 0px 0px, -176px -179px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.dragon{
+    background-image: url(https://feelthebrain.files.wordpress.com/2016/02/cloud_01_png_by_heroys-d7xym3w.png), url(https://static.vecteezy.com/system/resources/previews/011/356/506/original/plastic-wrap-texture-png.png), url(./imagenes/logopoke.png);
+    background-position: 19px -72px, -182px -190px, 0px 0px;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
