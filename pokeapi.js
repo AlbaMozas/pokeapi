@@ -47,12 +47,8 @@ const drawPokemon = (pokemons) => {
             <button class=peso > Peso: ${pokemon.weight} kg</button>
             </div>
             `;
-
-            
+         
     myDiv$$.appendChild(newDiv$$);
-
-    
-
   }
 
 
